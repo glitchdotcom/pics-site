@@ -8,8 +8,8 @@ A daft site with some images in it! When you deploy to Fastly and apply Image Op
 | Before  | After |
 | ------------- | ------------- |
 | ![Jam friend](jampal.png)  | ![Jam friend](jampal.png?saturation=-100&orient=h)  |
-| ![Stickers](stickers.jpeg)  |  ![Stickers](stickers.jpeg?width=0.5&height=0.5&contrast=100)  |
-| ![Spinny fish](spinfish.gif) | ![Spinny fish](spinfish.gif?orient=r&width=0.5) |
+| ![Stickers](stickers.jpeg)  |  ![Stickers](stickers.jpeg?contrast=100)  |
+| ![Spinny fish](spinfish.gif) | ![Spinny fish](spinfish.gif?orient=r&height=0.5) |
 | ![Painters](painters.png) | ![Painters](painters.png?bg-color=ff0033) |
 
 Use your browser dev tools to try different parameters on the image elements.
