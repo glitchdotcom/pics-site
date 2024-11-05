@@ -12,11 +12,13 @@ A daft site with some images in it! When you deploy to Fastly and apply Image Op
 | ![Spinny fish](spinfish.gif) | ![Spinny fish](spinfish.gif?orient=r&height=0.5) |
 | ![Painters](painters.png) | ![Painters](painters.png?bg-color=ff0033) |
 
-Use your browser dev tools to try different parameters on the image elements.
+With the Fastly version of the site open, use your browser dev tools to try different parameters on the image elements.
+
+![Editing in the browser dev tools](https://cdn.glitch.global/d62e173a-4a42-4b5d-b480-abb4ac723498/image-params.png?v=1730833262947)
 
 ## Clone your own to try Fastly
 
-You can make your own version of this site and add your own pics to try with Fastly Image Optimizer:
+You can make your own version of this site and add more pics to try with Fastly Image Optimizer:
 
 * Clone the repo
 * In your repo **Settings** select **Pages**
@@ -24,4 +26,4 @@ You can make your own version of this site and add your own pics to try with Fas
 * **Save** and GitHub will publish your site
 * Grab the address which will end `github.io`
 
-[Create a Fastly service with your new website as its origin and enable Image Optimizer!](https://docs.fastly.com/en/guides/about-fastly-image-optimizer)
+[Create a Fastly service with your new website as its origin and try Image Optimizer on it!](https://docs.fastly.com/en/guides/about-fastly-image-optimizer)
