@@ -1,16 +1,18 @@
 # A pictures website
 
-A daft site with some images in it!
+A daft site with some images in it! When you deploy to Fastly and apply Image Optimizer, the before and after pics will be different...
 
-You can see it at: [glitchdotcom.github.io/pics-site](https://glitchdotcom.github.io/pics-site)
+* You can see the origin site at: [glitchdotcom.github.io/pics-site](https://glitchdotcom.github.io/pics-site)
+* And an example of a Fastly deployed, image optimized version at: [github-pics.global.ssl.fastly.net/pics-site](https://github-pics.global.ssl.fastly.net/pics-site)
 
-![Jam friend](jampal.png)
+| Before  | After |
+| ------------- | ------------- |
+| ![Jam friend](jampal.png)  | ![Jam friend](jampal.png?saturation=-100&orient=h)  |
+| ![Stickers](stickers.jpeg)  |  ![Stickers](stickers.jpeg?width=0.5&height=0.5&contrast=100)  |
+| ![Spinny fish](spinfish.gif) | ![Spinny fish](spinfish.gif?orient=r&width=0.5) |
+| ![Painters](painters.png) | ![Painters](painters.png?bg-color=ff0033) |
 
-![Stickers](stickers.jpeg)
-
-![Spinny fish](spinfish.gif)
-
-![Painters](painters.png)
+Use your browser dev tools to try different parameters on the image elements.
 
 ## Clone your own to try Fastly
 
@@ -22,4 +24,4 @@ You can make your own version of this site and add your own pics to try with Fas
 * **Save** and GitHub will publish your site
 * Grab the address which will end `github.io`
 
-Create a Fastly service with your GitHub Pages site as the origin...
+[Create a Fastly service with your new website as its origin and enable Image Optimizer!](https://docs.fastly.com/en/guides/about-fastly-image-optimizer)
